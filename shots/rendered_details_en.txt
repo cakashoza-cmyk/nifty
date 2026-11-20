@@ -170,13 +170,13 @@ HEADLINES (CONTEXT ONLY; NEVER USED IN ANY NUMBER OR READING)
 2026-11-20 Stock Market Today: Sensex, Nifty Fall at Pre-Open - HDFC Sky
 2026-11-20 GIFT Nifty plunges over 200 pts, signals sharp fall for Sensex, Nifty as Nasdaq sinks 2.3%, Asian markets... - Moneycontrol.com
 2026-11-20 Newly-listed companies add ₹32-trillion to BSE market-cap in 2026 - Business Standard
-2026-11-20 Stock Markets Dip: Sensex, Nifty Fall Amid Global Weakness - Rediff MoneyWiz
 2026-11-20 Sensex Today Trades Lower | Nifty Below 25,400 | BSE Power Down 1.36% - Equitymaster
 2026-11-20 Stock markets fall in early trade amid profit-taking, weak global trends - PSU Watch
 2026-11-20 Key Factors Behind Today’s Market Movement - Equitypandit
 2026-11-20 Stock Markets Today: Sensex, Nifty Down on Profit-taking, weak global cues - Rediff
 2026-11-20 News by CNBC TV18 on TradingView, 2026-11-20 — cnbctv:aed4a7202094b:0 - TradingView
+2026-11-20 Sensex falls 300 pts, Nifty below 25,450: Weak global cues among key factors behind market decline - Moneycontrol.com
 Nifty Condition Desk
 Educational research log: where the Nifty 50 stands vs its own history, with sources, formulas and a scored forecast log. ← main screen · methodology
-Data refreshed 2026-11-20 12:31 IST · latest close 2026-11-19
-Model v1.0 · 2026-11-20 12:32 IST
+Data refreshed 2026-11-20 12:33 IST · latest close 2026-11-19
+Model v1.0 · 2026-11-20 12:34 IST
