@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="gu">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#090d16">
+<title>નિફ્ટી 50: બજાર અત્યારે ક્યાં છે? · Nifty Condition Desk</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E%F0%9F%93%8A%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<main id="simple" class="simple">
+  <div class="langs" id="langs"><button data-l="gu">ગુજરાતી</button><button data-l="hi">हिन्दी</button><button data-l="en">English</button></div>
+  <h1 class="s-title" id="s-title"></h1>
+  <div class="disc-top" id="disc-top"></div>
+  <section class="answer neutral" id="answer"><div class="a-label" id="a-today"></div><div class="t-mid" id="a-close">…</div><div class="chips" id="chips"></div></section>
+  <section class="tile"><div class="t-label" id="v-title"></div><div class="t-mid" id="v-main">…</div><div class="t-sub" id="v-sub"></div><div class="meaning" id="v-mean"></div></section>
+  <section class="tile"><div class="t-label" id="t-title"></div><div class="t-mid" id="t-main">…</div><div class="t-sub" id="t-sub"></div><div class="meaning" id="t-mean"></div></section>
+  <section class="tile"><div class="t-label" id="x-title"></div><div class="t-mid" id="x-main">…</div><div class="t-sub" id="x-sub"></div><div class="meaning" id="x-mean"></div></section>
+  <section class="tile"><div class="t-label" id="m-title"></div><div class="t-sub" id="m-rates" style="color:var(--text)"></div><div class="t-sub" id="m-gap"></div><div class="t-sub" id="m-world"></div><div class="t-sub" id="m-flow"></div></section>
+  <section class="tile"><div class="t-label" id="l-title"></div><div class="t-sub" id="l-main" style="font-size:1rem;color:var(--text)"></div><div class="t-sub" id="l-zero"></div><div class="t-sub" id="l-track"></div></section>
+  <div class="actions"><button class="wa" id="wa-btn"></button><button class="speak" id="speak-btn" style="display:none"></button></div>
+  <p class="t-sub center" id="s-updated"></p>
+  <p class="t-sub center" id="s-src"></p>
+  <p class="disc-top" id="s-disc"></p>
+  <p class="center"><a href="#details" id="details-link" class="details-link"></a></p>
+</main>
+
+<div class="container" id="details" style="display:none">
+<header>
+  <h1>Nifty Condition Desk <small>Educational research log: where the Nifty 50 stands vs its own history, with sources, formulas and a scored forecast log. <a href="#" id="back-link">← main screen</a> · <a href="methodology.html">methodology</a></small></h1>
+  <div class="meta"><div id="meta-data">Loading data…</div><div id="meta-model"></div></div>
+</header>
+<div class="warn" id="disc-details"></div>
+<div class="tabs" id="tabs">
+  <button class="tab active" data-s="cond">1. Condition</button>
+  <button class="tab" data-s="val">2. Valuation</button>
+  <button class="tab" data-s="trend">3. Trend &amp; volatility</button>
+  <button class="tab" data-s="macro">4. Economic backdrop</button>
+  <button class="tab" data-s="log">5. Research log &amp; learning</button>
+  <button class="tab" data-s="sources">6. Sources &amp; formulas</button>
+</div>
+<div class="screen active" id="s-cond"></div>
+<div class="screen" id="s-val"></div>
+<div class="screen" id="s-trend"></div>
+<div class="screen" id="s-macro"></div>
+<div class="screen" id="s-log"></div>
+<div class="screen" id="s-sources"></div>
+<p class="sub" style="margin-top:16px">Public data only. Legend: <span class="pill p-official">official</span> exchange / government data · <span class="pill p-live">live</span> auto-fetched data · <span class="pill p-unofficial">unofficial</span> · <span class="pill p-est">estimate</span> calculated by the app · <span class="pill p-none">no live source</span></p>
+</div>
+<script src="assets/i18n.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>
