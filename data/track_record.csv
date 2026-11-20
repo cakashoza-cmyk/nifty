@@ -1,3 +1,5 @@
 id,made_on,data_date,horizon_days,model_version,close,pred_pct,pred_band,drift_pct,scored,realised_date,realised_close,realised_pct,error,band_hit,drift_band_hit,naive_band_hit
 2026-11-19-21d,2026-11-20,2026-11-19,21,v1.0,25514.3,0.958,flat,0.958,False,,,,,,,
 2026-11-19-63d,2026-11-20,2026-11-19,63,v1.0,25514.3,2.908,flat,2.908,False,,,,,,,
+2026-11-20-21d,2026-11-20,2026-11-20,21,v1.0,25800.6,0.96,flat,0.96,False,,,,,,,
+2026-11-20-63d,2026-11-20,2026-11-20,63,v1.0,25800.6,2.908,flat,2.908,False,,,,,,,
