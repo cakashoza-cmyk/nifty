@@ -11,6 +11,7 @@ IST = timezone(timedelta(hours=5, minutes=30))
 UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36"
 NOW = datetime.now(IST)
 NI_URL = "https://www.niftyindices.com/reports/historical-data"
+RECO = r"\b(buy\w*|bought|sell\w*|sold|hold\w*|invest\w*|exit\w*|targets?|stop[- ]?loss|stocks? to|picks?|recommend\w*|should)\b"
 
 
 def get(url, data=None, headers=None, timeout=60, tries=2):
@@ -159,7 +160,7 @@ def fiidii(prev):
             continue
         d = datetime.strptime(r["date"], "%d-%b-%Y").strftime("%Y-%m-%d")
         hist = merge_hist(prev.get(k, {}).get("history"), [[d, float(r["netValue"])]])
-        out[k] = dict(label=("Foreign (FII/FPI)" if k == "fii" else "Domestic institutions (DII)") + " net buying in cash market, provisional",
+        out[k] = dict(label=("Foreign (FII/FPI)" if k == "fii" else "Domestic institutions (DII)") + " net flow in the cash market, provisional",
                       value=check(float(r["netValue"]), -100000, 100000, k), unit="₹ crore (net, one day)", as_of=d,
                       source="NSE provisional FII/DII cash-market data", source_url="https://www.nseindia.com/reports/fii-dii", status="official",
                       note="Provisional, one trading day; NSE's site often refuses automated requests, so days can be missing. History accumulates from each refresh.", history=hist[-500:])
@@ -175,8 +176,8 @@ def headlines():
     items = []
     for it in root.iter("item"):
         t = (it.findtext("title") or "").lstrip("| ").strip()
-        if any(x["title"] == t for x in items):
-            continue
+        if any(x["title"] == t for x in items) or re.search(RECO, t, re.I):
+            continue   # headlines that themselves carry trading recommendations are not shown
         d = datetime.strptime(it.findtext("pubDate"), "%a, %d %b %Y %H:%M:%S %Z").replace(tzinfo=timezone.utc).astimezone(IST)
         items.append({"title": t, "date": d.strftime("%Y-%m-%d"), "url": it.findtext("link")})
     items.sort(key=lambda x: x["date"], reverse=True)

@@ -1,0 +1,35 @@
+name: refresh
+on:
+  schedule:
+    - cron: "0 3,9,15 * * 1-5"   # 08:30, 14:30, 20:30 IST, Monday-Friday (market days; exchange holidays just repeat the last close)
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: refresh
+  cancel-in-progress: false
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install --quiet numpy
+      - name: Fetch public data
+        run: python3 scripts/fetch.py
+      - name: Model, forecast log, scoring
+        run: python3 scripts/model.py
+      - name: Unit tests and wording check
+        run: |
+          python3 -m unittest discover -s test -p "test_*.py" -v
+          python3 test/wordcheck.py
+      - name: Commit data
+        run: |
+          git config user.name "nifty-bot"
+          git config user.email "nifty-bot@users.noreply.github.com"
+          git pull --rebase -q || true
+          git add data
+          git diff --cached --quiet || (git commit -m "data refresh $(TZ=Asia/Kolkata date '+%Y-%m-%d %H:%M IST')" && git push)
