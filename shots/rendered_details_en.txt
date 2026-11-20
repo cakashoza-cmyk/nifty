@@ -1,0 +1,182 @@
+CONDITION READ FOR 2026-11-19 CLOSE (DESCRIPTIVE ONLY)
+
+Nifty 50
+
+25,514.30 OFFICIAL
+
+Valuation: Below average · Trend: Mixed · Volatility: Normal
+
+These are labels for where today's numbers sit in their own history. They are not a forecast and not a recommendation. The forward-change statistics on the next tabs describe what followed similar days in the past; overlapping windows mean far fewer independent examples than the day counts suggest, and the band thresholds use the full sample (hindsight).
+P/B PERCENTILE SINCE 1999-01-01
+26.1% ESTIMATE
+
+P/B
+
+3.13 OFFICIAL
+ · band Below average
+
+P/E PERCENTILE SINCE 2021-03-31 (CONSOLIDATED BASIS)
+20.2% ESTIMATE
+
+P/E
+
+20.78 OFFICIAL
+ · dividend yield 
+1.34% OFFICIAL
+
+Published daily by NSE Indices. From 31 Mar 2021 the P/E uses consolidated earnings (earlier: standalone), so P/E before and after that date is not like-for-like (it fell from 40.4 to 33.2 overnight). P/B and dividend yield did not change basis.
+
+WHAT FOLLOWED PAST DAYS IN EACH VALUATION BAND (P/B PERCENTILE, SINCE 1999)
+Band	Percentile range	Next 3 months	Next 12 months
+Cheap vs its history	0–20	+8.6% median · 76% higher · 10th–90th pct -7.3% to +28.1% · 1336 days	+35.9% median · 85% higher · 10th–90th pct -3.3% to +76.8% · 1321 days
+Below average ← today	20–40	+4.3% median · 67% higher · 10th–90th pct -7.8% to +16.2% · 1411 days	+14.2% median · 91% higher · 10th–90th pct +0.5% to +40.3% · 1308 days
+Around average	40–60	+2.6% median · 66% higher · 10th–90th pct -7.4% to +9.9% · 1366 days	+7.3% median · 69% higher · 10th–90th pct -7.7% to +22.7% · 1295 days
+Above average	60–80	+3.1% median · 62% higher · 10th–90th pct -8.6% to +14.3% · 1391 days	+7.9% median · 68% higher · 10th–90th pct -16.8% to +38.8% · 1391 days
+Expensive vs its history	80–100	-0.4% median · 49% higher · 10th–90th pct -14.3% to +16.6% · 1372 days	+6.0% median · 61% higher · 10th–90th pct -29.8% to +39.6% · 1372 days
+All days		+3.6% median · 64% higher · 10th–90th pct -9.2% to +17.2% · 6876 days	+11.2% median · 74% higher · 10th–90th pct -12.9% to +48.2% · 6687 days
+
+Price changes only (dividends excluded). Descriptive history, not a prediction.
+TREND STATE
+Mixed
+
+Close 25,514.30 vs 200-day average
+
+23,990.75 ESTIMATE
+ (+6.3%), 50-day average 23,469.52.
+
+Rising = close above the 200-day average and 50-day above 200-day; falling = both below; otherwise mixed.
+
+State	Next 1 month	Next 3 months
+Rising trend	+1.2% median · 60% higher · 10th–90th pct -5.4% to +7.6% · 4119 days	+3.0% median · 63% higher · 10th–90th pct -8.7% to +16.5% · 4119 days
+Mixed ← today	+1.6% median · 65% higher · 10th–90th pct -6.1% to +6.8% · 963 days	+5.1% median · 71% higher · 10th–90th pct -7.6% to +13.3% · 963 days
+Falling trend	+1.5% median · 58% higher · 10th–90th pct -8.0% to +10.1% · 1637 days	+2.7% median · 58% higher · 10th–90th pct -11.9% to +19.0% · 1595 days
+INDIA VIX
+16.11 OFFICIAL
+
+Percentile since 2018-01-01: 58.3% → Normal (calm = bottom third, nervous = top third).
+
+State	Next 3 months
+Calm	+2.4% median · 60% higher · 10th–90th pct -7.9% to +10.9% · 703 days
+Normal ← today	+1.5% median · 59% higher · 10th–90th pct -6.9% to +9.0% · 704 days
+Nervous	+5.6% median · 77% higher · 10th–90th pct -4.7% to +19.4% · 732 days
+
+NSE Indices' public history for India VIX starts in 2018-01-01, so this table covers fewer years.
+RATES AND INFLATION
+
+RBI repo
+
+5.50% OFFICIAL
+ · CPI inflation 
+6.09% OFFICIAL
+ · 10-year G-sec 
+7.38% OFFICIAL
+
+Real repo (repo − CPI):
+
+-0.59% ESTIMATE
+ · Real 10-year (G-sec − CPI): 
++1.29% ESTIMATE
+
+EARNINGS-YIELD GAP
+-2.57 pp ESTIMATE
+
+Percentile since 31 Mar 2021 (same P/E basis): 34.2%. A lower gap means bonds yield more relative to equity earnings than usual.
+
+WORLD AND RUPEE
+
+USD/INR
+
+93.35 OFFICIAL
+ (-2.5% over 3 months, ECB series) · Brent 
+$92.94 OFFICIAL
+ (-2.5%) · US 10-year 
+5.07% OFFICIAL
+
+INSTITUTIONAL FLOWS (CASH MARKET, PROVISIONAL)
+
+FII/FPI
+
+₹7,411 cr OFFICIAL
+ · DII 
+₹-1,357 cr OFFICIAL
+
+One trading day; history accumulates from each refresh (1 day(s) so far). NSE often refuses automated requests, so days can be missing.
+1 MONTH (21 TRADING DAYS): RESEARCH FORECAST +0.96% (BAND: FLAT, ±2%)
+
+d% = drift 0.958 + 0 × momentum + 0 × trend + 0 × valuation + 0 × volatility + 0 × rupee
+
+Variable	Now	Weight	Walk-forward error alone	Kept?
+momentum	11.20	0	4.164%	no
+trend	6.35	0	4.230%	no
+valuation	20.96	0	4.278%	no
+volatility	0.93	0	4.135%	no
+rupee	-1.25	0	4.243%	no
+
+Walk-forward back-test 2008-01-29 to 2026-10-19 (928 forecasts, each fitted only on earlier data): average error 4.121% vs drift 4.121% vs 'no change' 4.171%; all five variables together 4.490%. Band right 32.4% vs drift 32.4% vs 'no change' 32.2%. Gate: no variable cut walk-forward error by 1% or more versus drift.
+
+3 MONTHS (63 TRADING DAYS): RESEARCH FORECAST +2.91% (BAND: FLAT, ±4%)
+
+d% = drift 2.908 + 0 × momentum + 0 × trend + 0 × valuation + 0 × volatility + 0 × rupee
+
+Variable	Now	Weight	Walk-forward error alone	Kept?
+momentum	5.79	0	7.388%	no
+trend	6.35	0	7.757%	no
+valuation	20.96	0	8.323%	no
+volatility	0.93	0	7.256%	no
+rupee	-2.60	0	7.373%	no
+
+Walk-forward back-test 2008-04-01 to 2026-08-17 (911 forecasts, each fitted only on earlier data): average error 7.131% vs drift 7.131% vs 'no change' 7.358%; all five variables together 9.195%. Band right 34.0% vs drift 34.0% vs 'no change' 35.5%. Gate: no variable cut walk-forward error by 1% or more versus drift.
+
+WHAT THE LOG HAS LEARNED (FIXED TEMPLATES)
+1 month (21 trading days) walk-forward back-test 2008-01-29 to 2026-10-19, 928 forecasts: model error 4.121% vs drift 4.121% vs 'no change' 4.171%; band right 32.4% vs drift 32.4% vs 'no change' 32.2%. Nifty rose over 21 days 59.6% of the time. Gate: no variable cut walk-forward error by 1% or more versus drift.
+1 month: no variable has earned weight, so the forecast is just the historical drift (0.958% in log terms).
+3 months (63 trading days) walk-forward back-test 2008-04-01 to 2026-08-17, 911 forecasts: model error 7.131% vs drift 7.131% vs 'no change' 7.358%; band right 34.0% vs drift 34.0% vs 'no change' 35.5%. Nifty rose over 63 days 63.8% of the time. Gate: no variable cut walk-forward error by 1% or more versus drift.
+3 months: no variable has earned weight, so the forecast is just the historical drift (2.908% in log terms).
+Live research log: 0 forecasts scored so far (too few to judge).
+LIVE RESEARCH LOG (ONE RECORD PER HORIZON PER TRADING DAY; SCORED AFTER THE HORIZON PASSES)
+ID	Close	Forecast	Band	Version	Scored	Actual	Band right?
+2026-11-19-63d	25,514.30	+2.91%	flat	v1.0	pending	—	—
+2026-11-19-21d	25,514.30	+0.96%	flat	v1.0	pending	—	—
+
+Missed forecasts so far: 0 of 0 scored (all kept in the log). Download track_record.csv · model archive in data/models/
+
+MODEL VERSIONS
+Version	Date	Change
+v1.0	2026-11-20	First version. Weights start from the walk-forward gate; zero where nothing earned weight.
+DATA ITEMS
+Item	Value	As of	Status	Source
+Nifty 50 closing level	25,514.30 index points	2026-11-19	OFFICIAL	NSE Indices Ltd (niftyindices.com), Historical Data report
+Nifty 50 P/E (price to earnings)	20.78 times	2026-11-19	OFFICIAL	NSE Indices Ltd (niftyindices.com), Historical Data report
+Nifty 50 P/B (price to book)	3.13 times	2026-11-19	OFFICIAL	NSE Indices Ltd (niftyindices.com), Historical Data report
+Nifty 50 dividend yield	1.34 %	2026-11-19	OFFICIAL	NSE Indices Ltd (niftyindices.com), Historical Data report
+India VIX (expected volatility)	16.11 index (annualised %)	2026-11-19	OFFICIAL	NSE Indices Ltd (niftyindices.com), Historical Data report
+RBI policy repo rate	5.50 % p.a.	2026-11-20	OFFICIAL	Reserve Bank of India homepage, 'Current Rates'
+USD/INR reference rate	93.35 ₹ per US$	2026-11-19	OFFICIAL	FBIL reference rate, as shown on RBI homepage
+USD/INR (ECB cross rate), daily history	93.30 ₹ per US$	2026-11-19	LIVE	European Central Bank reference rates via Frankfurter API
+India CPI inflation (all-India, combined), year on year	6.09 %	2026-10	OFFICIAL	MoSPI CPI API (base 2024)
+US 10-year government bond yield	5.07 % p.a.	2026-11-18	OFFICIAL	FRED, Federal Reserve Bank of St. Louis (series DGS10)
+Brent crude oil price	92.94 US$ per barrel	2026-11-17	OFFICIAL	FRED, Federal Reserve Bank of St. Louis (series DCOILBRENTEU)
+India 10-year government bond yield (monthly)	7.38 % p.a.	2026-10	OFFICIAL	FRED, Federal Reserve Bank of St. Louis (series INDIRLTLT01STM)
+Domestic institutions (DII) net flow in the cash market, provisional	-1,356.57 ₹ crore (net, one day)	2026-11-19	OFFICIAL	NSE provisional FII/DII cash-market data
+Foreign (FII/FPI) net flow in the cash market, provisional	7,411.41 ₹ crore (net, one day)	2026-11-19	OFFICIAL	NSE provisional FII/DII cash-market data
+NOT USED
+Derivatives (F&O) data and individual stocks: out of scope by design.
+Yahoo Finance ^NSEI: rate-limited (HTTP 429) from GitHub's servers; not needed because NSE Indices' official closes work.
+India VIX before 2018: not in NSE Indices' public history endpoint.
+HEADLINES (CONTEXT ONLY; NEVER USED IN ANY NUMBER OR READING)
+2026-11-20 Stock Market Update 20 November 2026: Sensex Fell Around 250 Points; Nifty 50 Below 25,450 in Early Trade - Kotak Neo
+2026-11-20 Pre-Market 20 November 2026: GIFT Nifty Hints At Softer Start; US Tech Developments and Global Cues In Focus - Kotak Neo
+2026-11-20 Rising Bond Yields May Pose a Challenge to India’s Stock Rally - Bloomberg.com
+2026-11-20 Stock Market Today: Sensex, Nifty Fall at Pre-Open - HDFC Sky
+2026-11-20 GIFT Nifty plunges over 200 pts, signals sharp fall for Sensex, Nifty as Nasdaq sinks 2.3%, Asian markets... - Moneycontrol.com
+2026-11-20 Newly-listed companies add ₹32-trillion to BSE market-cap in 2026 - Business Standard
+2026-11-20 Stock Markets Dip: Sensex, Nifty Fall Amid Global Weakness - Rediff MoneyWiz
+2026-11-20 Sensex Today Trades Lower | Nifty Below 25,400 | BSE Power Down 1.36% - Equitymaster
+2026-11-20 Stock markets fall in early trade amid profit-taking, weak global trends - PSU Watch
+2026-11-20 Key Factors Behind Today’s Market Movement - Equitypandit
+2026-11-20 Stock Markets Today: Sensex, Nifty Down on Profit-taking, weak global cues - Rediff
+2026-11-20 News by CNBC TV18 on TradingView, 2026-11-20 — cnbctv:aed4a7202094b:0 - TradingView
+Nifty Condition Desk
+Educational research log: where the Nifty 50 stands vs its own history, with sources, formulas and a scored forecast log. ← main screen · methodology
+Data refreshed 2026-11-20 12:31 IST · latest close 2026-11-19
+Model v1.0 · 2026-11-20 12:32 IST

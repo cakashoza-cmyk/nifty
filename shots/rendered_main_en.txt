@@ -1,0 +1,41 @@
+ગુજરાતી
+हिन्दी
+English
+Nifty 50: where does the market stand?
+Educational information only. Not advice. Read the notice below.
+Market condition (from the 2026-11-19 close)
+Nifty 50: 25,514.30
+Valuation: Below average
+Trend: Mixed
+Volatility: Normal
+Valuation (vs its own history)
+Below average
+P/B 3.13: lower on 26% of days since 1999. P/E 20.78: lower on 20% of days since 2021 (the P/E method changed in 2021).
+Historically in this condition: Nifty's median change over the next year was +14.2%, higher 91% of the time. All days: +11.2%, higher 74% of the time. Overlapping periods are counted many times, so truly independent examples are few.
+Trend (vs the 200-day average)
+Mixed
+Nifty is 6.4% above its 200-day average (23,991). 50-day average 23,470.
+Historically in this condition: median change over the next 3 months +5.1%, higher 71% of the time (all days: +3.6%, 64%).
+Volatility (India VIX)
+Normal · 16.11
+India VIX 16.11: lower on 58% of days since 2018.
+Historically in this condition: median change over the next 3 months +1.5%; 8 in 10 cases between -6.9% and +9.0%.
+Economic backdrop
+RBI repo rate 5.50% · CPI inflation 6.09% (2026-10) · 10-year G-sec 7.38% (2026-10)
+Earnings yield (100 ÷ P/E) 4.81% − bond yield = -2.57 percentage points. Lower on 34% of days since 2021.
+US$1 = ₹93.35 (-2.5% in 3 months) · Brent $92.94 (-2.5% in 3 months) · US 10-year 5.07%
+2026-11-19: foreign institutions (FII) net ₹7,411 crore, domestic institutions (DII) ₹-1,357 crore (provisional).
+Research forecast log (educational)
+1 month: +0.96% · 3 months: +2.91% (log change)
+Model weight 0: no indicator has beaten the historical average change, so the figure is just the historical average. Tested since 2008: error 4.12% (average 4.12%, 'no change' 4.17%).
+Forecasts scored so far: 0.
+Send on WhatsApp
+🔊 Listen
+
+Last checked: 2026-11-20 12:31 IST
+
+Sources: NSE Indices, RBI/FBIL, MoSPI, NSE (FII/DII), FRED
+
+Educational research only. Not investment advice. The author is not a SEBI-registered Investment Adviser or Research Analyst. Past patterns do not guarantee anything. No derivatives (F&O) and no individual stocks.
+
+Details (English) →
