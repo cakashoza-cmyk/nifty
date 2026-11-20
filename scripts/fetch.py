@@ -1,7 +1,7 @@
 """Nifty market-condition desk: data refresh. Free public sources only, no keys. Writes data/live.json.
 Each source is fetched independently; on failure the last good value is kept and marked stale.
 Same pattern as STTIE, Gold Desk and LGD Desk (github.com/cakashoza-cmyk)."""
-import json, re, ssl, html, sys, time, urllib.request, urllib.parse, xml.etree.ElementTree as ET
+import json, re, ssl, html, sys, time, signal, urllib.request, urllib.parse, xml.etree.ElementTree as ET
 from datetime import datetime, timedelta, timezone, date
 from pathlib import Path
 
@@ -55,7 +55,6 @@ def ni_series(endpoint, name, prev_hist, first, parse):
     while s <= NOW.date():
         e = min(s + timedelta(days=364), NOW.date())
         out += [x for x in (parse(r) for r in ni(endpoint, name, s, e)) if x]
-        print(f"    {name} {endpoint[3:12]} {s}..{e}: {len(out)} rows", flush=True)
         s = e + timedelta(days=1)
     return merge_hist(prev_hist, out)
 
@@ -141,7 +140,7 @@ FRED = {"us10": ("DGS10", "US 10-year government bond yield", "% p.a.", -1, 15),
 
 def fred(key):
     sid, label, unit, lo, hi = FRED[key]
-    rows = [l.split(",") for l in get(f"https://fred.stlouisfed.org/graph/fredgraph.csv?id={sid}", timeout=90, tries=3).decode().strip().splitlines()[1:]]
+    rows = [l.split(",") for l in get(f"https://fred.stlouisfed.org/graph/fredgraph.csv?id={sid}", headers={"User-Agent": "nifty-desk/1.0 (github.com/cakashoza-cmyk/nifty)"}, timeout=60, tries=2).decode().strip().splitlines()[1:]]
     hist = [[d, float(v)] for d, v in rows if v not in (".", "")]
     if key != "in10":
         hist = [x for x in hist if x[0] >= "2004-01-01"]
@@ -184,19 +183,31 @@ def headlines():
     return items[:12]
 
 
+class Deadline(Exception):
+    pass
+
+
+def _alarm(*_):
+    raise Deadline("source took too long")
+
+
 def main():
+    signal.signal(signal.SIGALRM, _alarm)
     prev = json.loads(OUT.read_text()) if OUT.exists() else {"items": {}}
     P = prev["items"]
     items, errors, groups = {}, {}, {}
 
-    def run(name, fn, keys=None):
+    def run(name, fn, keys=None, limit=600):
+        signal.alarm(limit)   # hard per-source deadline: a stalled server cannot hang the whole refresh
         try:
             r = fn()
+            signal.alarm(0)
             r = r if keys is None else {keys: r}
             for k in r:
                 groups[k] = name
             items.update(r)
         except Exception as e:  # noqa: BLE001
+            signal.alarm(0)
             errors[name] = f"{type(e).__name__}: {e}"[:300]
             for k, old in P.items():
                 if old.get("group") == name and k not in items:
@@ -205,12 +216,12 @@ def main():
 
     run("niftyindices", lambda: nifty(P))
     run("vix", lambda: vix(P), "vix")
-    run("rbi", rbi)
-    run("ecb", ecb, "usdinr_hist")
-    run("mospi", lambda: mospi(P), "cpi")
+    run("rbi", rbi, limit=120)
+    run("ecb", ecb, "usdinr_hist", limit=120)
+    run("mospi", lambda: mospi(P), "cpi", limit=120)
     for k in FRED:
-        run("fred_" + k, lambda k=k: fred(k), k)
-    run("nse_fiidii", lambda: fiidii(P))
+        run("fred_" + k, lambda k=k: fred(k), k, limit=150)
+    run("nse_fiidii", lambda: fiidii(P), limit=90)
     for k, v in items.items():
         if k in groups:
             v["group"] = groups[k]
