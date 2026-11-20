@@ -1,0 +1,42 @@
+{
+"predictions": [
+{
+"id": "2026-11-19-21d",
+"made_on": "2026-11-20",
+"data_date": "2026-11-19",
+"close": 25514.3,
+"horizon_days": 21,
+"model_version": "v1.0",
+"pred_pct": 0.958,
+"pred_band": "flat",
+"drift_pct": 0.958,
+"weights": [
+0.0,
+0.0,
+0.0,
+0.0,
+0.0
+],
+"scored": false
+},
+{
+"id": "2026-11-19-63d",
+"made_on": "2026-11-20",
+"data_date": "2026-11-19",
+"close": 25514.3,
+"horizon_days": 63,
+"model_version": "v1.0",
+"pred_pct": 2.908,
+"pred_band": "flat",
+"drift_pct": 2.908,
+"weights": [
+0.0,
+0.0,
+0.0,
+0.0,
+0.0
+],
+"scored": false
+}
+]
+}

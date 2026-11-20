@@ -10,7 +10,9 @@ Condition read (latest trading day d):
   earnings-yield gap = 100 / P/E - India 10-year G-sec yield (latest monthly), percentage points
   'what this has historically meant' = forward Nifty price returns observed on past days in the same state (descriptive statistics).
 Forecast of the Nifty price change over h trading days (h = 21 ~ 1 month, 63 ~ 3 months), in log %:
-  d% = drift + w_mom*momentum + w_trend*trend + w_val*valuation + w_vix*volatility + w_fx*rupee
+  d% = drift + w_mom*momentum + w_trend*trend + w_val*valuation + w_vol*volatility + w_fx*rupee
+  momentum = h-day % change; trend = % above 200-day average; valuation = -log(P/B / its 5-year median);
+  volatility = 20-day realised volatility minus its 1-year median; rupee = h-day % change in USD/INR
   drift = average h-day change over all earlier history (the honest baseline for equities).
   weights re-fitted every run by ridge least squares on realised history; a variable keeps weight only if it cuts
   walk-forward error by at least 1% versus drift, and the model must beat both 'no change' and drift. Otherwise weights are 0.
@@ -162,6 +164,12 @@ def condition(live, rows):
 
 
 # ---------- forecast model ----------
+def realised_vol(rows, i, k=20):
+    """annualised % standard deviation of the last k daily log changes (India VIX history is too short for the model)"""
+    r = [math.log(rows[j]["c"] / rows[j - 1]["c"]) for j in range(i - k + 1, i + 1)]
+    return 100 * st.pstdev(r) * math.sqrt(252)
+
+
 def table(rows, h):
     pbs = [r["pb"] for r in rows]
     out = []
@@ -171,11 +179,10 @@ def table(rows, h):
         if None in (r["pb"], r["inr"]) or np.isnan(r["s200"]) or rows[i - h]["inr"] is None:
             continue
         past_pb = [x for x in pbs[i - 252 * 5: i] if x]
-        past_vix = [rows[j]["vix"] for j in range(max(0, i - 252), i) if rows[j]["vix"]]
-        if r["vix"] is None or len(past_vix) < 200:
-            continue
+        rv = realised_vol(rows, i)
+        past_rv = [realised_vol(rows, j) for j in range(i - 252, i, 21)]
         x = np.array([100 * math.log(r["c"] / rows[i - h]["c"]), 100 * (r["c"] / r["s200"] - 1), -100 * math.log(r["pb"] / st.median(past_pb)),
-                      r["vix"] - st.median(past_vix), 100 * math.log(r["inr"] / rows[i - h]["inr"])])
+                      rv - st.median(past_rv), 100 * math.log(r["inr"] / rows[i - h]["inr"])])
         y = 100 * math.log(rows[i + h]["c"] / r["c"]) if i + h < len(rows) else None
         out.append((i, r["d"], x, y, rows[i + h]["d"] if i + h < len(rows) else None))
     return out
