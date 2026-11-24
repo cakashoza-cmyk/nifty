@@ -75,6 +75,44 @@
 0.0
 ],
 "scored": false
+},
+{
+"id": "2026-11-23-21d",
+"made_on": "2026-11-24",
+"data_date": "2026-11-23",
+"close": 25349.65,
+"horizon_days": 21,
+"model_version": "v1.0",
+"pred_pct": 0.962,
+"pred_band": "flat",
+"drift_pct": 0.962,
+"weights": [
+0.0,
+0.0,
+0.0,
+0.0,
+0.0
+],
+"scored": false
+},
+{
+"id": "2026-11-23-63d",
+"made_on": "2026-11-24",
+"data_date": "2026-11-23",
+"close": 25349.65,
+"horizon_days": 63,
+"model_version": "v1.0",
+"pred_pct": 2.909,
+"pred_band": "flat",
+"drift_pct": 2.909,
+"weights": [
+0.0,
+0.0,
+0.0,
+0.0,
+0.0
+],
+"scored": false
 }
 ]
 }
