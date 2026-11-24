@@ -1,6 +1,6 @@
 {
  "version": "v1.0",
- "generated_ist": "2026-11-24 18:54 IST",
+ "generated_ist": "2026-11-25 05:18 IST",
  "data_date": "2026-11-23",
  "signature": {
   "21": {
@@ -246,7 +246,7 @@
    "ey_gap_pctile_since_2021": 37.0,
    "real_repo": -0.59,
    "real_10y": 1.29,
-   "usdinr_hist_3m_pct": -2.97,
+   "usdinr_hist_3m_pct": -2.62,
    "brent_3m_pct": -2.47,
    "fii_last": 5672.99,
    "fii_days": 3,
