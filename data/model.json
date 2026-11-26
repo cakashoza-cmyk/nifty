@@ -1,7 +1,7 @@
 {
  "version": "v1.0",
- "generated_ist": "2026-11-26 04:59 IST",
- "data_date": "2026-11-25",
+ "generated_ist": "2026-11-26 17:30 IST",
+ "data_date": "2026-11-26",
  "signature": {
   "21": {
    "mask": [
@@ -44,11 +44,11 @@
   }
  ],
  "condition": {
-  "as_of": "2026-11-25",
-  "close": 25819.25,
-  "s50": 23598.03,
-  "s200": 23999.43,
-  "dist200_pct": 7.58,
+  "as_of": "2026-11-26",
+  "close": 25884.5,
+  "s50": 23647.75,
+  "s200": 24000.21,
+  "dist200_pct": 7.85,
   "trend": "mixed",
   "trend_hist": {
    "rising": {
@@ -85,14 +85,14 @@
    },
    "falling": {
     "21": {
-     "n": 1640,
+     "n": 1641,
      "median": 1.48,
      "p10": -8.01,
      "p90": 10.2,
      "pos": 58.1
     },
     "63": {
-     "n": 1598,
+     "n": 1599,
      "median": 2.78,
      "p10": -11.92,
      "p90": 18.97,
@@ -100,17 +100,17 @@
     }
    }
   },
-  "pb": 3.17,
-  "pb_pctile": 28.1,
+  "pb": 3.18,
+  "pb_pctile": 28.6,
   "pb_since": "1999-01-01",
   "val_band": "below_avg",
   "val_hist": {
    "cheap": {
     "63": {
-     "n": 1370,
-     "median": 8.45,
+     "n": 1371,
+     "median": 8.44,
      "p10": -7.21,
-     "p90": 27.83,
+     "p90": 27.55,
      "pos": 76.0
     },
     "252": {
@@ -146,11 +146,11 @@
      "pos": 65.7
     },
     "252": {
-     "n": 1298,
-     "median": 7.25,
+     "n": 1299,
+     "median": 7.24,
      "p10": -7.65,
      "p90": 22.69,
-     "pos": 68.5
+     "pos": 68.4
     }
    },
    "above_avg": {
@@ -186,44 +186,44 @@
     }
    }
   },
-  "pe": 21.03,
-  "pe_pctile_since_2021": 26.0,
+  "pe": 21.08,
+  "pe_pctile_since_2021": 27.5,
   "pe_band_since_2021": "below_avg",
   "dy": 1.32,
   "all_days": {
    "21": {
-    "n": 6921,
-    "median": 1.37,
+    "n": 6922,
+    "median": 1.38,
     "p10": -6.2,
     "p90": 8.35,
     "pos": 60.7
    },
    "63": {
-    "n": 6879,
+    "n": 6880,
     "median": 3.57,
     "p10": -9.21,
     "p90": 17.16,
-    "pos": 63.7
+    "pos": 63.8
    },
    "252": {
-    "n": 6690,
-    "median": 11.19,
+    "n": 6691,
+    "median": 11.18,
     "p10": -12.84,
-    "p90": 48.22,
+    "p90": 48.19,
     "pos": 74.4
    }
   },
-  "vix": 17.67,
-  "vix_pctile": 68.5,
-  "vix_band": "nervous",
+  "vix": 16.84,
+  "vix_pctile": 63.7,
+  "vix_band": "normal",
   "vix_since": "2018-01-01",
   "vix_hist": {
    "calm": {
-    "n": 709,
-    "median": 2.51,
-    "p10": -7.9,
+    "n": 710,
+    "median": 2.64,
+    "p10": -7.8,
     "p90": 10.87,
-    "pos": 60.5
+    "pos": 60.6
    },
    "normal": {
     "n": 703,
@@ -241,9 +241,9 @@
    }
   },
   "macro": {
-   "ey_gap": -2.62,
-   "ey": 4.76,
-   "ey_gap_pctile_since_2021": 30.2,
+   "ey_gap": -2.64,
+   "ey": 4.74,
+   "ey_gap_pctile_since_2021": 28.4,
    "real_repo": -0.59,
    "real_10y": 1.29,
    "usdinr_hist_3m_pct": -3.33,
@@ -285,24 +285,24 @@
    ],
    "gate_reason": "no variable cut walk-forward error by 1% or more versus drift",
    "baseline": {
-    "n": 928,
+    "n": 929,
     "start": "2008-01-29",
-    "end": "2026-10-19",
-    "mae": 4.121,
-    "drift_mae": 4.121,
-    "naive_mae": 4.171,
+    "end": "2026-10-27",
+    "mae": 4.13,
+    "drift_mae": 4.13,
+    "naive_mae": 4.181,
     "hit": 32.4,
     "drift_hit": 32.4,
     "naive_hit": 32.2,
     "up_share": 59.6
    },
    "backtest": {
-    "n": 928,
+    "n": 929,
     "start": "2008-01-29",
-    "end": "2026-10-19",
-    "mae": 4.121,
-    "drift_mae": 4.121,
-    "naive_mae": 4.171,
+    "end": "2026-10-27",
+    "mae": 4.13,
+    "drift_mae": 4.13,
+    "naive_mae": 4.181,
     "hit": 32.4,
     "drift_hit": 32.4,
     "naive_hit": 32.2,
@@ -310,89 +310,89 @@
    },
    "single": {
     "momentum": {
-     "n": 928,
+     "n": 929,
      "start": "2008-01-29",
-     "end": "2026-10-19",
-     "mae": 4.164,
-     "drift_mae": 4.121,
-     "naive_mae": 4.171,
-     "hit": 32.8,
+     "end": "2026-10-27",
+     "mae": 4.172,
+     "drift_mae": 4.13,
+     "naive_mae": 4.181,
+     "hit": 32.7,
      "drift_hit": 32.4,
      "naive_hit": 32.2,
      "up_share": 59.6
     },
     "trend": {
-     "n": 928,
+     "n": 929,
      "start": "2008-01-29",
-     "end": "2026-10-19",
-     "mae": 4.23,
-     "drift_mae": 4.121,
-     "naive_mae": 4.171,
+     "end": "2026-10-27",
+     "mae": 4.238,
+     "drift_mae": 4.13,
+     "naive_mae": 4.181,
      "hit": 32.4,
      "drift_hit": 32.4,
      "naive_hit": 32.2,
      "up_share": 59.6
     },
     "valuation": {
-     "n": 928,
+     "n": 929,
      "start": "2008-01-29",
-     "end": "2026-10-19",
-     "mae": 4.278,
-     "drift_mae": 4.121,
-     "naive_mae": 4.171,
+     "end": "2026-10-27",
+     "mae": 4.285,
+     "drift_mae": 4.13,
+     "naive_mae": 4.181,
      "hit": 34.7,
      "drift_hit": 32.4,
      "naive_hit": 32.2,
      "up_share": 59.6
     },
     "volatility": {
-     "n": 928,
+     "n": 929,
      "start": "2008-01-29",
-     "end": "2026-10-19",
-     "mae": 4.135,
-     "drift_mae": 4.121,
-     "naive_mae": 4.171,
-     "hit": 32.7,
+     "end": "2026-10-27",
+     "mae": 4.143,
+     "drift_mae": 4.13,
+     "naive_mae": 4.181,
+     "hit": 32.6,
      "drift_hit": 32.4,
      "naive_hit": 32.2,
      "up_share": 59.6
     },
     "rupee": {
-     "n": 928,
+     "n": 929,
      "start": "2008-01-29",
-     "end": "2026-10-19",
-     "mae": 4.243,
-     "drift_mae": 4.121,
-     "naive_mae": 4.171,
-     "hit": 32.8,
+     "end": "2026-10-27",
+     "mae": 4.251,
+     "drift_mae": 4.13,
+     "naive_mae": 4.181,
+     "hit": 32.7,
      "drift_hit": 32.4,
      "naive_hit": 32.2,
      "up_share": 59.6
     }
    },
    "ungated": {
-    "n": 928,
+    "n": 929,
     "start": "2008-01-29",
-    "end": "2026-10-19",
-    "mae": 4.49,
-    "drift_mae": 4.121,
-    "naive_mae": 4.171,
-    "hit": 35.7,
+    "end": "2026-10-27",
+    "mae": 4.497,
+    "drift_mae": 4.13,
+    "naive_mae": 4.181,
+    "hit": 35.6,
     "drift_hit": 32.4,
     "naive_hit": 32.2,
     "up_share": 59.6
    },
-   "n_fit": 5390,
-   "drift_pct": 0.964,
-   "pred_pct": 0.964,
+   "n_fit": 5391,
+   "drift_pct": 0.966,
+   "pred_pct": 0.966,
    "pred_band": "flat",
    "band_pct": 2.0,
    "features_now": {
-    "momentum": 12.641,
-    "trend": 7.583,
-    "valuation": 19.564,
-    "volatility": 3.757,
-    "rupee": -3.138
+    "momentum": 12.909,
+    "trend": 7.851,
+    "valuation": 19.119,
+    "volatility": 3.302,
+    "rupee": -3.075
    },
    "model_has_edge": false
   },
@@ -519,26 +519,26 @@
     "naive_hit": 35.4,
     "up_share": 63.8
    },
-   "n_fit": 5306,
-   "drift_pct": 2.909,
-   "pred_pct": 2.909,
+   "n_fit": 5307,
+   "drift_pct": 2.91,
+   "pred_pct": 2.91,
    "pred_band": "flat",
    "band_pct": 4.0,
    "features_now": {
-    "momentum": 6.398,
-    "trend": 7.583,
-    "valuation": 19.564,
-    "volatility": 3.757,
-    "rupee": -3.745
+    "momentum": 6.175,
+    "trend": 7.851,
+    "valuation": 19.119,
+    "volatility": 3.302,
+    "rupee": -3.389
    },
    "model_has_edge": false
   }
  },
  "lessons": [
-  "1 month (21 trading days) walk-forward back-test 2008-01-29 to 2026-10-19, 928 forecasts: model error 4.121% vs drift 4.121% vs 'no change' 4.171%; band right 32.4% vs drift 32.4% vs 'no change' 32.2%. Nifty rose over 21 days 59.6% of the time. Gate: no variable cut walk-forward error by 1% or more versus drift.",
-  "1 month: no variable has earned weight, so the forecast is just the historical drift (0.964% in log terms).",
+  "1 month (21 trading days) walk-forward back-test 2008-01-29 to 2026-10-27, 929 forecasts: model error 4.13% vs drift 4.13% vs 'no change' 4.181%; band right 32.4% vs drift 32.4% vs 'no change' 32.2%. Nifty rose over 21 days 59.6% of the time. Gate: no variable cut walk-forward error by 1% or more versus drift.",
+  "1 month: no variable has earned weight, so the forecast is just the historical drift (0.966% in log terms).",
   "3 months (63 trading days) walk-forward back-test 2008-04-01 to 2026-08-24, 912 forecasts: model error 7.127% vs drift 7.127% vs 'no change' 7.357%; band right 34.0% vs drift 34.0% vs 'no change' 35.4%. Nifty rose over 63 days 63.8% of the time. Gate: no variable cut walk-forward error by 1% or more versus drift.",
-  "3 months: no variable has earned weight, so the forecast is just the historical drift (2.909% in log terms).",
+  "3 months: no variable has earned weight, so the forecast is just the historical drift (2.91% in log terms).",
   "Live research log: 0 forecasts scored so far (too few to judge)."
  ],
  "bands": {
