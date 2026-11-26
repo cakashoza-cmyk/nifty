@@ -1,6 +1,6 @@
 {
  "version": "v1.0",
- "generated_ist": "2026-11-26 17:30 IST",
+ "generated_ist": "2026-11-27 05:02 IST",
  "data_date": "2026-11-26",
  "signature": {
   "21": {
@@ -246,16 +246,16 @@
    "ey_gap_pctile_since_2021": 28.4,
    "real_repo": -0.59,
    "real_10y": 1.29,
-   "usdinr_hist_3m_pct": -3.33,
+   "usdinr_hist_3m_pct": -3.23,
    "brent_3m_pct": 4.03,
-   "fii_last": 4479.08,
-   "fii_days": 4,
-   "fii_sum_recent": 27871.9,
-   "fii_n_recent": 4,
-   "dii_last": 4018.72,
-   "dii_days": 4,
-   "dii_sum_recent": -4957.77,
-   "dii_n_recent": 4
+   "fii_last": 5843.33,
+   "fii_days": 5,
+   "fii_sum_recent": 33715.23,
+   "fii_n_recent": 5,
+   "dii_last": 5630.72,
+   "dii_days": 5,
+   "dii_sum_recent": 672.95,
+   "dii_n_recent": 5
   }
  },
  "models": {
@@ -392,7 +392,7 @@
     "trend": 7.851,
     "valuation": 19.119,
     "volatility": 3.302,
-    "rupee": -3.075
+    "rupee": -2.847
    },
    "model_has_edge": false
   },
@@ -529,7 +529,7 @@
     "trend": 7.851,
     "valuation": 19.119,
     "volatility": 3.302,
-    "rupee": -3.389
+    "rupee": -3.162
    },
    "model_has_edge": false
   }
