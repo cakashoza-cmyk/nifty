@@ -1,7 +1,7 @@
 {
  "version": "v1.0",
- "generated_ist": "2026-11-27 17:22 IST",
- "data_date": "2026-11-26",
+ "generated_ist": "2026-11-28 04:47 IST",
+ "data_date": "2026-11-27",
  "signature": {
   "21": {
    "mask": [
@@ -44,11 +44,11 @@
   }
  ],
  "condition": {
-  "as_of": "2026-11-26",
-  "close": 25884.5,
-  "s50": 23647.75,
-  "s200": 24000.21,
-  "dist200_pct": 7.85,
+  "as_of": "2026-11-27",
+  "close": 25607.2,
+  "s50": 23697.53,
+  "s200": 23999.37,
+  "dist200_pct": 6.7,
   "trend": "mixed",
   "trend_hist": {
    "rising": {
@@ -85,29 +85,29 @@
    },
    "falling": {
     "21": {
-     "n": 1641,
-     "median": 1.48,
+     "n": 1642,
+     "median": 1.49,
      "p10": -8.01,
      "p90": 10.2,
-     "pos": 58.1
+     "pos": 58.2
     },
     "63": {
-     "n": 1599,
-     "median": 2.78,
-     "p10": -11.92,
+     "n": 1600,
+     "median": 2.81,
+     "p10": -11.91,
      "p90": 18.97,
      "pos": 57.6
     }
    }
   },
-  "pb": 3.18,
-  "pb_pctile": 28.6,
+  "pb": 3.14,
+  "pb_pctile": 26.7,
   "pb_since": "1999-01-01",
   "val_band": "below_avg",
   "val_hist": {
    "cheap": {
     "63": {
-     "n": 1371,
+     "n": 1372,
      "median": 8.44,
      "p10": -7.21,
      "p90": 27.55,
@@ -146,7 +146,7 @@
      "pos": 65.7
     },
     "252": {
-     "n": 1299,
+     "n": 1300,
      "median": 7.24,
      "p10": -7.65,
      "p90": 22.69,
@@ -186,75 +186,75 @@
     }
    }
   },
-  "pe": 21.08,
-  "pe_pctile_since_2021": 27.5,
+  "pe": 20.86,
+  "pe_pctile_since_2021": 21.4,
   "pe_band_since_2021": "below_avg",
-  "dy": 1.32,
+  "dy": 1.33,
   "all_days": {
    "21": {
-    "n": 6922,
+    "n": 6923,
     "median": 1.38,
     "p10": -6.2,
     "p90": 8.35,
     "pos": 60.7
    },
    "63": {
-    "n": 6880,
+    "n": 6881,
     "median": 3.57,
     "p10": -9.21,
     "p90": 17.16,
     "pos": 63.8
    },
    "252": {
-    "n": 6691,
+    "n": 6692,
     "median": 11.18,
     "p10": -12.84,
     "p90": 48.19,
-    "pos": 74.4
+    "pos": 74.3
    }
   },
-  "vix": 16.84,
-  "vix_pctile": 63.7,
+  "vix": 16.55,
+  "vix_pctile": 61.5,
   "vix_band": "normal",
   "vix_since": "2018-01-01",
   "vix_hist": {
    "calm": {
-    "n": 710,
+    "n": 711,
     "median": 2.64,
     "p10": -7.8,
-    "p90": 10.87,
+    "p90": 10.82,
     "pos": 60.6
    },
    "normal": {
-    "n": 703,
+    "n": 702,
     "median": 1.52,
     "p10": -6.95,
     "p90": 9.03,
-    "pos": 58.5
+    "pos": 58.4
    },
    "nervous": {
-    "n": 730,
-    "median": 5.64,
+    "n": 731,
+    "median": 5.62,
     "p10": -4.57,
-    "p90": 19.46,
-    "pos": 76.8
+    "p90": 19.43,
+    "pos": 76.9
    }
   },
   "macro": {
-   "ey_gap": -2.64,
-   "ey": 4.74,
-   "ey_gap_pctile_since_2021": 28.4,
+   "ey_gap": -2.59,
+   "ey": 4.79,
+   "ey_gap_pctile_since_2021": 32.5,
    "real_repo": -0.59,
    "real_10y": 1.29,
-   "usdinr_hist_3m_pct": -3.23,
+   "usdinr_hist_3m_pct": -2.51,
    "brent_3m_pct": 4.03,
-   "fii_last": 5843.33,
-   "fii_days": 5,
-   "fii_sum_recent": 33715.23,
+   "fii_last": 1634.33,
+   "fii_days": 6,
+   "fii_sum_recent": 27938.15,
    "fii_n_recent": 5,
-   "dii_last": 5630.72,
-   "dii_days": 5,
-   "dii_sum_recent": 672.95,
+   "dii_last": -556.42,
+   "dii_days": 6,
+   "dii_sum_recent": 1473.1,
    "dii_n_recent": 5
   }
  },
@@ -382,17 +382,17 @@
     "naive_hit": 32.2,
     "up_share": 59.6
    },
-   "n_fit": 5391,
-   "drift_pct": 0.966,
-   "pred_pct": 0.966,
+   "n_fit": 5392,
+   "drift_pct": 0.968,
+   "pred_pct": 0.968,
    "pred_band": "flat",
    "band_pct": 2.0,
    "features_now": {
-    "momentum": 12.909,
-    "trend": 7.851,
-    "valuation": 19.119,
-    "volatility": 3.302,
-    "rupee": -2.847
+    "momentum": 12.056,
+    "trend": 6.699,
+    "valuation": 20.385,
+    "volatility": 4.948,
+    "rupee": -2.359
    },
    "model_has_edge": false
   },
@@ -519,26 +519,26 @@
     "naive_hit": 35.4,
     "up_share": 63.8
    },
-   "n_fit": 5307,
-   "drift_pct": 2.91,
-   "pred_pct": 2.91,
+   "n_fit": 5308,
+   "drift_pct": 2.911,
+   "pred_pct": 2.911,
    "pred_band": "flat",
    "band_pct": 4.0,
    "features_now": {
-    "momentum": 6.175,
-    "trend": 7.851,
-    "valuation": 19.119,
-    "volatility": 3.302,
-    "rupee": -3.162
+    "momentum": 5.62,
+    "trend": 6.699,
+    "valuation": 20.385,
+    "volatility": 4.948,
+    "rupee": -2.569
    },
    "model_has_edge": false
   }
  },
  "lessons": [
   "1 month (21 trading days) walk-forward back-test 2008-01-29 to 2026-10-27, 929 forecasts: model error 4.13% vs drift 4.13% vs 'no change' 4.181%; band right 32.4% vs drift 32.4% vs 'no change' 32.2%. Nifty rose over 21 days 59.6% of the time. Gate: no variable cut walk-forward error by 1% or more versus drift.",
-  "1 month: no variable has earned weight, so the forecast is just the historical drift (0.966% in log terms).",
+  "1 month: no variable has earned weight, so the forecast is just the historical drift (0.968% in log terms).",
   "3 months (63 trading days) walk-forward back-test 2008-04-01 to 2026-08-24, 912 forecasts: model error 7.127% vs drift 7.127% vs 'no change' 7.357%; band right 34.0% vs drift 34.0% vs 'no change' 35.4%. Nifty rose over 63 days 63.8% of the time. Gate: no variable cut walk-forward error by 1% or more versus drift.",
-  "3 months: no variable has earned weight, so the forecast is just the historical drift (2.91% in log terms).",
+  "3 months: no variable has earned weight, so the forecast is just the historical drift (2.911% in log terms).",
   "Live research log: 0 forecasts scored so far (too few to judge)."
  ],
  "bands": {
